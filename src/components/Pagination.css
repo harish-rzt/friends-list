@@ -1,0 +1,16 @@
+:local(.wrapper) {
+  background-color: #ffffff;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:local(.btnAction) {
+
+}
+
+:local(.info) {
+  padding: 0 20px;
+  font-size: 15px;
+}

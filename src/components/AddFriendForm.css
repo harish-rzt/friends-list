@@ -1,0 +1,23 @@
+:local(.addFriendWrapper) {
+  display: flex;
+  background: #ffffff;
+  border-bottom: 1px solid #ABAAAA;
+  padding: 4px 20px;
+  justify-content: space-between;
+}
+
+:local(.AddFriendForm) {
+  border: 1px solid #ABAAAA;
+  padding: 0 7px;
+  margin-left: 12px;
+}
+
+:local(.addFriendDropdown) {
+  width: 70px;
+  padding: 0 5px;
+  height: 100%;
+}
+
+:local(.addFriendDropdownList) {
+  min-width: 100px;
+}
