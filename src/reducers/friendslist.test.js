@@ -34,15 +34,28 @@ describe('friendslist Reducer test', () => {
   });
 
   it('ADD_FRIEND reducer test', () => {
+    // adding new friend to empty friend list
     const updatedState = reducer(defaultState, { type: types.ADD_FRIEND, payload });
     expect(updatedState.friendsById[0]).toEqual(expectedData);
+
+    // adding new friend to initialState with 3 entries and checking for the count(after add should be 4)
+    const updatedState2 = reducer(initialState, { type: types.ADD_FRIEND, payload });
+    expect(updatedState2.friendsById.length).toEqual(4);
   });
 
   it('DELETE_FRIEND reducer test', () => {
     // adding a friend
-    reducer(defaultState, { type: types.ADD_FRIEND, payload });
-    // deleting the friend and checking for empty array
-    expect(reducer(defaultState, { type: types.DELETE_FRIEND, payload }).friendsById).toEqual([]);
+    const newState = reducer(initialState, {});
+    expect(newState.friendsById.length).toEqual(3);
+
+    const deleteFriend1 = reducer(newState, { type: types.DELETE_FRIEND, id: 2 });
+    expect(deleteFriend1.friendsById.length).toEqual(2);
+
+    const deleteFriend2 = reducer(deleteFriend1, { type: types.DELETE_FRIEND, id: 1 });
+    expect(deleteFriend2.friendsById.length).toEqual(1);
+
+    const deleteFriend3 = reducer(deleteFriend2, { type: types.DELETE_FRIEND, id: 0 });
+    expect(deleteFriend3.friendsById.length).toEqual(0);
   });
 
   it('STAR_FRIEND reducer test', () => {
@@ -71,10 +84,22 @@ describe('friendslist Reducer test', () => {
     expect(statePaginationIncrement.pagination.pageSize).toEqual(2);
     expect(statePaginationIncrement.pagination.totalPages).toEqual(2);
 
+    // Testing for invalid increment pagination
+    const invalidStatePaginationIncrement = reducer(statePaginationIncrement, { type: types.INCREMENT_PAGINATION });
+    expect(invalidStatePaginationIncrement.pagination.currentPage).toEqual(2);
+    expect(invalidStatePaginationIncrement.pagination.pageSize).toEqual(2);
+    expect(invalidStatePaginationIncrement.pagination.totalPages).toEqual(2);
+
     // Decrement pagination and check values
     const statePaginationDecrement = reducer(statePaginationIncrement, { type: types.DECREMENT_PAGINATION });
     expect(statePaginationDecrement.pagination.currentPage).toEqual(1);
     expect(statePaginationDecrement.pagination.pageSize).toEqual(2);
     expect(statePaginationDecrement.pagination.totalPages).toEqual(2);
+
+    // Testing for invalid decrement pagination
+    const invalidStatePaginationDecrement = reducer(statePaginationDecrement, { type: types.DECREMENT_PAGINATION });
+    expect(invalidStatePaginationDecrement.pagination.currentPage).toEqual(1);
+    expect(invalidStatePaginationDecrement.pagination.pageSize).toEqual(2);
+    expect(invalidStatePaginationDecrement.pagination.totalPages).toEqual(2);
   });
 });
