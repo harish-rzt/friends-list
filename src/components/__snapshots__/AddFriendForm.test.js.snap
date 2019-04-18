@@ -1,0 +1,561 @@
+exports[`<AddFriendForm /> Render check with render 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "dropdown",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "aria-expanded": "true",
+              "aria-haspopup": "true",
+              "class": "btn btn-default dropdown-toggle",
+              "data-toggle": "dropdown",
+              "id": "dropdownMenu1",
+              "type": "button",
+            },
+            "children": Array [
+              Object {
+                "data": "Male",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "caret",
+                  },
+                  "children": Array [],
+                  "name": "span",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "caret",
+                },
+                "children": Array [],
+                "name": "span",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "data": "Male",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "aria-expanded": undefined,
+              "aria-haspopup": undefined,
+              "class": undefined,
+              "data-toggle": undefined,
+              "id": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "aria-expanded": undefined,
+              "aria-haspopup": undefined,
+              "class": undefined,
+              "data-toggle": undefined,
+              "id": undefined,
+              "type": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {
+            "class": "form-control",
+            "placeholder": "Type the name of a friend",
+            "type": "text",
+            "value": "",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "placeholder": undefined,
+            "type": undefined,
+            "value": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "placeholder": undefined,
+            "type": undefined,
+            "value": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+      Object {
+        "attribs": Object {
+          "class": "form-control",
+          "placeholder": "Type the name of a friend",
+          "type": "text",
+          "value": "",
+        },
+        "children": Array [],
+        "name": "input",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Object {
+          "attribs": Object {
+            "class": "dropdown",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "aria-expanded": "true",
+                "aria-haspopup": "true",
+                "class": "btn btn-default dropdown-toggle",
+                "data-toggle": "dropdown",
+                "id": "dropdownMenu1",
+                "type": "button",
+              },
+              "children": Array [
+                Object {
+                  "data": "Male",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "caret",
+                    },
+                    "children": Array [],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "caret",
+                  },
+                  "children": Array [],
+                  "name": "span",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "data": "Male",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "aria-expanded": undefined,
+                "aria-haspopup": undefined,
+                "class": undefined,
+                "data-toggle": undefined,
+                "id": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "aria-expanded": undefined,
+                "aria-haspopup": undefined,
+                "class": undefined,
+                "data-toggle": undefined,
+                "id": undefined,
+                "type": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "placeholder": undefined,
+          "type": undefined,
+          "value": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "placeholder": undefined,
+          "type": undefined,
+          "value": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {},
+    "x-attribsPrefix": Object {},
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
+
+exports[`<AddFriendForm /> Render check with shallow 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddFriendForm
+    addFriend={[Function]} />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="dropdown">
+          <button
+                    aria-expanded="true"
+                    aria-haspopup="true"
+                    className="btn btn-default dropdown-toggle"
+                    data-toggle="dropdown"
+                    id="dropdownMenu1"
+                    onClick={[Function]}
+                    type="button">
+                    Male
+                    <span
+                              className="caret" />
+          </button>
+</div>,
+        <input
+          autoFocus="true"
+          className="form-control"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Type the name of a friend"
+          type="text"
+          value="" />,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              aria-expanded="true"
+              aria-haspopup="true"
+              className="btn btn-default dropdown-toggle"
+              data-toggle="dropdown"
+              id="dropdownMenu1"
+              onClick={[Function]}
+              type="button">
+              Male
+              <span
+                            className="caret" />
+</button>,
+            false,
+          ],
+          "className": "dropdown",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "aria-expanded": "true",
+              "aria-haspopup": "true",
+              "children": Array [
+                "Male",
+                <span
+                  className="caret" />,
+              ],
+              "className": "btn btn-default dropdown-toggle",
+              "data-toggle": "dropdown",
+              "id": "dropdownMenu1",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Male",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "caret",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+            ],
+            "type": "button",
+          },
+          false,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "autoFocus": "true",
+          "className": "form-control",
+          "onChange": [Function],
+          "onKeyDown": [Function],
+          "placeholder": "Type the name of a friend",
+          "type": "text",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="dropdown">
+            <button
+                        aria-expanded="true"
+                        aria-haspopup="true"
+                        className="btn btn-default dropdown-toggle"
+                        data-toggle="dropdown"
+                        id="dropdownMenu1"
+                        onClick={[Function]}
+                        type="button">
+                        Male
+                        <span
+                                    className="caret" />
+            </button>
+</div>,
+          <input
+            autoFocus="true"
+            className="form-control"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Type the name of a friend"
+            type="text"
+            value="" />,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                aria-expanded="true"
+                aria-haspopup="true"
+                className="btn btn-default dropdown-toggle"
+                data-toggle="dropdown"
+                id="dropdownMenu1"
+                onClick={[Function]}
+                type="button">
+                Male
+                <span
+                                className="caret" />
+</button>,
+              false,
+            ],
+            "className": "dropdown",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "aria-expanded": "true",
+                "aria-haspopup": "true",
+                "children": Array [
+                  "Male",
+                  <span
+                    className="caret" />,
+                ],
+                "className": "btn btn-default dropdown-toggle",
+                "data-toggle": "dropdown",
+                "id": "dropdownMenu1",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Male",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "caret",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+              ],
+              "type": "button",
+            },
+            false,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "autoFocus": "true",
+            "className": "form-control",
+            "onChange": [Function],
+            "onKeyDown": [Function],
+            "placeholder": "Type the name of a friend",
+            "type": "text",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

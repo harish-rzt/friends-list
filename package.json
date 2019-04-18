@@ -11,7 +11,11 @@
     "redux": "^3.6.0"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-15": "^1.4.0",
+    "react-scripts": "0.9.5",
+    "react-test-renderer": "^15.6.2",
+    "sinon": "^7.3.2"
   },
   "scripts": {
     "start": "react-scripts start",

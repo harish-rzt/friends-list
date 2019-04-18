@@ -24,20 +24,21 @@ class AddFriendForm extends Component {
             {this.state.selectedGender.value}
             <span className="caret" />
           </button>
-          <ul
-            className={classnames('dropdown-menu', styles.addFriendDropdownList, { 'show': this.state.showDropdownList })}
+          {this.state.showDropdownList && <ul
+            className={classnames('dropdown-menu show', styles.addFriendDropdownList)}
             aria-labelledby="dropdownMenu1">
             {dropDownOptions && dropDownOptions.map(option =>
-              <li>
+              <li key={option.id}>
                 <a
                   href='#'
+                  className="dropdown-link"
                   onClick={() => {this.handleDropdownChange(option.id);}}
                 >
                   {option.value}
                 </a>
               </li>,
             )}
-          </ul>
+          </ul>}
         </div>
         <input
           type="text"
@@ -68,7 +69,7 @@ class AddFriendForm extends Component {
 
   handleSubmit(e) {
     const name = e.target.value.trim();
-    if (e.which === 13) {
+    if (e.keyCode === 13 && name.length) {
       const gender = this.state.selectedGender.value;
       this.props.addFriend({ name, gender });
       this.setState({ name: '', selectedGender: dropDownOptions[0] });

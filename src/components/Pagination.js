@@ -5,10 +5,10 @@ import { decrementPagination, incrementPagination } from '../actions/FriendsActi
 import styles from './Pagination.css';
 
 
-class Pagination extends Component {
+export default class Pagination extends Component {
   render() {
     const {
-      friendlist: { pagination: { currentPage, totalPages } },
+      pagination: { currentPage, totalPages },
       decrementPagination,
       incrementPagination,
     } = this.props;
@@ -37,12 +37,3 @@ class Pagination extends Component {
 }
 
 Pagination.propTypes = {};
-
-function mapStateToProps(state) {
-  return state;
-}
-
-export default connect(mapStateToProps, {
-  incrementPagination,
-  decrementPagination,
-})(Pagination);
