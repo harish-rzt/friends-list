@@ -1,6 +1,6 @@
 import * as types from '../constants/ActionTypes';
 
-const initialState = {
+export const initialState = {
   friendsById: [
     {
       id: 0,
