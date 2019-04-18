@@ -1,7 +1,6 @@
 import classnames from 'classnames';
-import React, { Component, PropTypes } from 'react';
-import { connect } from 'react-redux';
-import { decrementPagination, incrementPagination } from '../actions/FriendsActions';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import styles from './Pagination.css';
 
 
@@ -36,4 +35,8 @@ export default class Pagination extends Component {
   }
 }
 
-Pagination.propTypes = {};
+Pagination.propTypes = {
+  pagination: PropTypes.object.isRequired,
+  decrementPagination: PropTypes.func.isRequired,
+  incrementPagination: PropTypes.func.isRequired,
+};
